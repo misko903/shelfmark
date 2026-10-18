@@ -25,7 +25,6 @@ This document lists all configuration options that can be set via environment va
   - [Open Library](#metadata-providers-open-library)
   - [Google Books](#metadata-providers-google-books)
   - [Moly.hu](#metadata-providers-moly.hu)
-  - [Databazeknih.cz](#metadata-providers-databazeknih.cz)
 - [Direct Download](#direct-download)
   - [Download Sources](#direct-download-download-sources)
   - [Cloudflare Bypass](#direct-download-cloudflare-bypass)
@@ -2322,26 +2321,6 @@ Default sort order for Google Books search results.
 **Enable Moly.hu**
 
 Enable Moly.hu as a metadata provider for book searches
-
-- **Type:** boolean
-- **Default:** `false`
-
-</details>
-
-### Metadata Providers: Databazeknih.cz
-
-| Variable | Description | Type | Default |
-|----------|-------------|------|---------|
-| `DATABAZEKNIH_ENABLED` | Enable Databazeknih.cz as a metadata provider for book searches | boolean | `false` |
-
-<details>
-<summary>Detailed descriptions</summary>
-
-#### `DATABAZEKNIH_ENABLED`
-
-**Enable Databazeknih.cz**
-
-Enable Databazeknih.cz as a metadata provider for book searches
 
 - **Type:** boolean
 - **Default:** `false`
